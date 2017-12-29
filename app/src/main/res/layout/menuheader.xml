@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="20dp"
+    android:background="@color/colorPrimary"> <!-- of plaatje/afbeelding/andere kleur -->
+
+    <!-- TODO logo is even om te testen -->
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+
+    <!-- TODO text moet verandert worden!! -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voornaam en achternam"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+    <!-- TODO text moet verandert worden!! -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="emailadres"
+        android:textColor="@color/white" />
+
+</LinearLayout>
