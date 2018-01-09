@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import Fragments.Hoofdstuk1Fragment;
 import Fragments.TestFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.test:
                 fragmentClass = TestFragment.class;
                 break;
-
+            case R.id.hfst1:
+                fragmentClass = Hoofdstuk1Fragment.class;
+                break;
             default:
                 fragmentClass = TestFragment.class;
         }

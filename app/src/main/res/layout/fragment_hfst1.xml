@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Hoofdstuk1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" 1.1	Wat is een licht verstandelijke
+    Om te mogen spreken van een licht verstandelijke beperking (LVB) moet sprake zijn van:
+    -	een IQ beneden de 85
+    -	beperkt sociaal aanpassingsgedrag op verschillende levensgebieden
+    -	een levenslange beperking die is ontstaan voor het 18e levensjaar beperking?
+    Definitie en omvang van de problematiek
+    -	Vaak wordt bij een LVB gedacht aan een laag IQ. Het sociaal adaptief functioneren (ook wel: sociaal aanpassingsgedrag) is echter ook een belangrijk aspect. Mensen met een LVB ervaren niet alleen problemen op conceptueel niveau (begrip van taal, cijfers en tijd), maar ook in sociale en praktische vaardigheden (huishouden, OV, werk en zelfverzorging).
+" />
+
+</FrameLayout>
+
+
