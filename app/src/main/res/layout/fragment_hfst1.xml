@@ -4,18 +4,57 @@
     android:layout_height="match_parent"
     tools:context="Fragments.Hoofdstuk1Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text=" 1.1	Wat is een licht verstandelijke
-    Om te mogen spreken van een licht verstandelijke beperking (LVB) moet sprake zijn van:
-    -	een IQ beneden de 85
-    -	beperkt sociaal aanpassingsgedrag op verschillende levensgebieden
-    -	een levenslange beperking die is ontstaan voor het 18e levensjaar beperking?
-    Definitie en omvang van de problematiek
-    -	Vaak wordt bij een LVB gedacht aan een laag IQ. Het sociaal adaptief functioneren (ook wel: sociaal aanpassingsgedrag) is echter ook een belangrijk aspect. Mensen met een LVB ervaren niet alleen problemen op conceptueel niveau (begrip van taal, cijfers en tijd), maar ook in sociale en praktische vaardigheden (huishouden, OV, werk en zelfverzorging).
-" />
+        android:layout_height="wrap_content"
+        android:text="1.1 Wat is een licht verstandelijke beperking?"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Om te mogen spreken van een licht verstandelijke beperking (LVB) moet sprake zijn van:
+        -	een IQ beneden de 85
+        -	beperkt sociaal aanpassingsgedrag op verschillende levensgebieden
+        -	een levenslange beperking die is ontstaan voor het 18e levensjaar beperking?"
+        android:textStyle="italic"
+        android:textSize="11dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:text="Definitie en omvang van de problematiek"
+        android:textStyle="bold"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:text="-	Vaak wordt bij een LVB gedacht aan een laag IQ. Het sociaal adaptief functioneren (ook wel: sociaal aanpassingsgedrag) is echter ook een belangrijk aspect. Mensen met een LVB ervaren niet alleen problemen op conceptueel niveau (begrip van taal, cijfers en tijd), maar ook in sociale en praktische vaardigheden (huishouden, OV, werk en zelfverzorging).
+        - Vaak als mensen moeite hebben op het gebied van taal en redeneren (verbaal IQ) hebben zij ook moeite met inzicht, planning, uitvoering (performaal IQ). Mensen met een LVB zijn verbaal vaak iets sterker dan performaal, hetgeen makkelijk leidt tot overschatting."
+        android:textStyle="normal"
+        android:textSize="12dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/fig1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="600dp"
+        android:text="- Een LVB is een levenslange beperking. Het is geen ziekte die te genezen is. Mensen met een LVB kunnen wel leren omgaan met hun beperking, maar vor-men een kwetsbare groep en zullen al-tijd een zekere mate van ondersteu-ning nodig hebben. Er wordt soms wel gesproken van ‘levenslange en levens-brede’ ondersteuning.
+        - Er is veel onduidelijkheid over de omvang van de groep mensen met een LVB. Op basis van de normaalverdeling kan worden gezegd dat naar schatting 16% van de mensen in Nederland een IQ heeft beneden de 85 (figuur 1). Het gaat dan om circa 2,7 miljoen mensen.
+        - Niet al deze mensen ervaren ook problemen in het sociaal adaptief functioneren. Sociaal aanpassingsgedrag is lastig te meten, waardoor er slecht zicht is op hoe groot deze groep is. Zo’n 100.000 mensen met een LVB maken gebruik van specialistische zorg; onbekend is hoe groot de groep is die geen gebruik maakt van zorg, maar duidelijk is dat dit om een grote groep gaat (zie ook figuur 4, pag. 10)."
+        android:textStyle="normal"
+        android:textSize="12dp"/>
 
 </FrameLayout>
 
