@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/test" android:title="Test" android:icon="@drawable/ic_list_black_24px"/>
-    <item android:id="@+id/hfst1" android:title="1. Algemeen " android:icon="@drawable/ic_list_black_24px"/>
+    <item android:id="@+id/titelblad" android:title="@string/titel_brochure" />
+
+    <item android:id="@+id/colofon" android:title="@string/colofon_titel" />
+
+    <item android:id="@+id/inhoudsopgave" android:title="@string/inhoudsopgave" />
+
+    <item android:id="@+id/waarom_handreiking" android:title="@string/waarom_handreiking_titel" />
+
+    <item android:id="@+id/hfst1" android:title="@string/hoofdstuk1_titel" />
+    <item android:id="@+id/h1_1" android:title="@string/hoofdstuk1_paragraaf1_titel" />
+    <item android:id="@+id/h1_2" android:title="@string/h1_p2" />
+    <item android:id="@+id/h1_3" android:title="@string/h1_p3"/>
+    <item android:id="@+id/h1_4" android:title="@string/h1_p4"/>
+
+    <item android:id="@+id/hfst2" android:title="@string/hoofdstuk2_titel" />
+    <item android:id="@+id/h2_1" android:title="@string/hoofdstuk2_paragraaf1_titel" />
+    <item android:id="@+id/h2_2" android:title="@string/h2_p2" />
+    <item android:id="@+id/h2_3" android:title="@string/h2_p3" />
+    <item android:id="@+id/h2_4" android:title="@string/h2_p4" />
+    <item android:id="@+id/h2_5" android:title="@string/h2_p5" />
+    <item android:id="@+id/h2_6" android:title="@string/h2_p6" />
+
+    <item android:id="@+id/hfst3" android:title="@string/hoofdstuk3_titel" />
+    <item android:id="@+id/h3_1" android:title="@string/hoofdstuk3_paragraaf1_titel" />
+    <item android:id="@+id/h3_2" android:title="@string/h3_p2" />
+    <item android:id="@+id/h3_3" android:title="@string/h3_p3" />
+    <item android:id="@+id/h3_4" android:title="@string/h3_p4" />
+    <item android:id="@+id/h3_5" android:title="@string/h3_p5" />
+    <item android:id="@+id/h3_6" android:title="@string/h3_p6" />
+
+    <item android:id="@+id/hfst4" android:title="@string/hoofdstuk4_titel" />
+
+    <item android:id="@+id/about_handleiding" android:title="@string/about_handreiking"/>
 </menu>

@@ -2,7 +2,219 @@
     <string name="app_name">PolitieBrochureApp</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <!-- Titelblad -->
+    <string name="titel_brochure">Politiewerk met oog voor Licht Verstandelijke Beperking</string>
+    <string name="ondertitel_brochure">Een handreiking voor politiemedewerkers over de omgang met
+    verdachten en slachtoffers met een LVB</string>
+
+    <!-- Colofon -->
+    <string name="colofon_titel">Colofon</string>
+    <string name="colofon_auterus">Auteurs: Hendrien Kaal en Paula Vrij</string>
+    <string name="colofon_tekst_alinea1">Met dank aan de geïnterviewde medewerkers van diverse politieregio’s,
+        de geïnterviewde medewerkers van diverse zorginstellingen, de deelnemers aan de Klankbordgroep
+        uit de dis-tricten Zeeland en De Baronie en de studenten van de opleiding Toegepaste Psychologie
+        voor Politie aan Hogeschool Leiden die allen een inhoudelijke bijdrage hebben geleverd aan de
+        ontwikkeling van deze handreiking.</string>
+    <string name="colofon_tekst_alinea2">Deze handreiking is tot stand gekomen uit een samenwerking
+        tussen het lectoraat ‘Licht ver-standelijke beperking en jeugdcriminaliteit’ van Hogeschool
+        Leiden en Politie Zeeland/West Brabant.</string>
+    <string name="colofon_tekst_alinea3">&#169; Hogeschool Leiden, 2017.
+        Alle rechten voorbehouden. De handreiking mag alleen in zijn geheel en zonder wijzigingen worden
+        verveelvoudigd en/of openbaar worden gemaakt en mag niet voor winst worden verkocht.</string>
+
+    <string name="inhoudsopgave">Inhoudsopgave</string>
+
+    <!-- Waarom een handreiking? -->
+    <string name="waarom_handreiking_titel">Waarom een handreiking?</string>
+    <string name="waarom_handreiking_alinea1">De populatie mensen met een licht verstandelijke beperking
+        (LVB) in de samenleving krijgt steeds meer aandacht. De indruk bestaat dat er een groeiende
+        groep is die niet meer meekomt in de steeds complexere maatschappij. Binnen verschillende
+        werkvelden groeit het begrip dat deze groep overvraagd wordt en dat een passende bejegening
+        van belang is voor alle betrokkenen.</string>
+    <string name="waarom_handreiking_alinea2">Binnen de strafrechtsketen is sprake van een oververtegenwoordiging
+        van mensen met een LVB. De politie kan op deze doelgroep tegenkomen in verschillende rollen,
+        bijvoorbeeld in de rol van informatiezoeker, aangever, getuige of verdachte van een overtreding
+        of misdrijf. Doordat een LVB lastig te herkennen is bestaat op dergelijke momenten het risico op
+        onbegrip, overvraging en het incorrect duiden van gedrag, hetgeen miscommunicatie en secundaire
+        victimisatie, onnodige escalaties en andere misverstanden in de hand kan werken.</string>
+    <string name="waarom_handreiking_alinea3">Het is niet alleen belangrijk dat een LVB binnen de
+        strafrechtsketen tijdig wordt herkend, maar ook dat de diverse betrokken professionals weten
+        hoe passende hulp en ondersteuning kan worden geboden wanneer zij te maken hebben met iemand
+        met een LVB. Zo kunnen frustraties en onbegrip van beide kanten worden voorkomen. Een passende
+        bejegening kan bijdragen aan de vermindering van het aantal misverstanden en vergroot de kans
+        op een effectief politieoptreden, een constructieve procesgang, betrouwbare verklaringen en
+        waarheidsvinding. Het doel van deze handreiking is om professionals binnen de politie kennis
+        en handvatten te bieden die hierbij kunnen helpen.</string>
+
+    <!-- Hoofdstuk 1 (pagina1) -->
+    <string name="hoofdstuk1_titel">1. Algemeen</string>
+    <string name="hoofdstuk1_paragraaf1_titel">1.1 Wat is een licht verstandelijke beperking?</string>
+    <string name="hoofdstuk1_paragraaf1_alinea1">Om te mogen spreken van een licht verstandelijke beperking
+        (LVB) moet sprake zijn van:</string>
+    <string name="hoofdstuk1_paragraaf1_alinea1_opsommingspunt1"> -	een IQ beneden de 85</string>
+    <string name="hoofdstuk1_paragraaf1_alinea1_opsommingspunt2"> -	beperkt sociaal aanpassingsgedrag
+        op verschillende levensgebieden</string>
+    <string name="hoofdstuk1_paragraaf1_alinea1_opsommingspunt3"> -	een levenslange beperking die is
+        ontstaan voor het 18e levensjaar beperking?</string>
+    <string name="hoofdstuk1_tussenkop1">Definitie en omvang van de problematiek</string>
+    <string name="hoofstuk1_tussenkop1_opsommingspunt1">Vaak wordt bij een LVB gedacht aan een laag
+        IQ. Het sociaal adaptief functioneren (ook wel: sociaal aanpassingsgedrag) is echter ook een
+        belangrijk aspect. Mensen met een LVB ervaren niet alleen problemen op conceptueel niveau
+        (begrip van taal, cijfers en tijd), maar ook in sociale en praktische vaardigheden (huishouden,
+        OV, werk en zelfverzorging).</string>
+    <string name="hoofstuk1_tussenkop1_opsommingspunt2">Vaak als mensen moeite hebben op het gebied
+        van taal en redeneren (verbaal IQ) hebben zij ook moeite met inzicht, planning, uitvoering
+        (performaal IQ). Mensen met een LVB zijn verbaal vaak iets sterker dan performaal, hetgeen
+        makkelijk leidt tot overschatting."</string>
+    <string name="hoofstuk1_tussenkop1_opsommingspunt3"> Een LVB is een levenslange beperking. Het
+        is geen ziekte die te genezen is. Mensen met een LVB kunnen wel leren omgaan met hun beperking,
+        maar vor-men een kwetsbare groep en zullen al-tijd een zekere mate van ondersteu-ning nodig
+        hebben. Er wordt soms wel gesproken van ‘levenslange en levens-brede’ ondersteuning.</string>
+    <string name="hoofstuk1_tussenkop1_opsommingspunt4"> Er is veel onduidelijkheid over de omvang
+        van de groep mensen met een LVB. Op basis van de normaalverdeling kan worden gezegd dat naar
+        schatting 16% van de mensen in Nederland een IQ heeft beneden de 85 (figuur 1). Het gaat dan
+        om circa 2,7 miljoen mensen.</string>
+    <string name="hoofstuk1_tussenkop1_opsommingspunt5"> Niet al deze mensen ervaren ook problemen
+        in het sociaal adaptief functioneren. Sociaal aanpassingsgedrag is lastig te meten, waardoor
+        er slecht zicht is op hoe groot deze groep is. Zo’n 100.000 mensen met een LVB maken gebruik
+        van specialistische zorg; onbekend is hoe groot de groep is die geen gebruik maakt van zorg,
+        maar duidelijk is dat dit om een grote groep gaat (zie ook figuur 4, pag. 10).</string>
+    <string name="h1_p2">1.2 Hoe herken je een LVB?</string>
+    <string name="h1_p3">1.3 Wat is een passende communicatie en bejegening?</string>
+    <string name="h1_p4">1.4 Contact op straat</string>
+
+    <!-- Hoofstuk 2 (pagina 1)-->
+    <string name="hoofdstuk2_titel">2. Verdachten</string>
+    <string name="hoofdstuk2_paragraaf1_titel">2.1 Aanhouden en overbrengen</string>
+    <string name="hoofdstuk2_paragraaf1_opsommingspunt1">Mensen met een LVB conformeren zich soms
+        niet aan verwachtingen omtrent gepast gedrag. Dit kan zijn omdat zij niet begrijpen wat er
+        van hen verwacht wordt, of omdat zij moeite hebben het verwachte gedrag te laten zien. Dit
+        gedrag kan de kans op een aanhouding vergroten. Hoewel het vaak moeilijk is om ‘niet willen’
+        te onderscheiden van ‘niet kunnen’ is het belangrijk te overwegen of er iets anders onder het
+        gedrag schuilgaat dan wat het op het eerste oog lijkt te zijn.</string>
+    <string name="hoofdstuk2_paragraaf1_opsommingspunt2">Wanneer het nodig is om iemand met een LVB
+        aan te houden is het belangrijk rustig en stapsgewijs uit te leggen wat er gaat gebeuren.
+        Angst, onzekerheid en kortaf toegesproken worden kunnen leiden tot een agressieve reactie.
+        Ondertitelen is in deze fase al erg belangrijk: doe wat je zegt en zeg wat je doet. Een
+        aanhouding is in veel gevallen onvermijdelijk, en soms zelfs gepland. In het geval van een
+        geplande aanhouding kan de achtergrond van de jongere soms al worden meegenomen. Door op basis
+        van voorinformatie maatwerk te leveren kunnen veel problemen worden voorkomen. Rust bieden en
+        iemand weghalen uit de situatie kan al veel gedoe voorkomen.</string>
+    <string name="hoofdstuk2_paragraaf1_opsommingspunt3">De autorit naar het arrestanten-complex kan
+        soms (gevoelsmatig) erg lang zijn en kan leiden tot een opbouw van stress. Probeer gedurende
+        de rit contact te houden en iemand op zijn gemak te stellen. Gebruik deze tijd om (nogmaals)
+        uit te leggen waarom de persoon is aangehouden en (alvast) uit te leggen wat hem in het complex
+        te wachten staat (zie ook de volgende paragraaf).</string>
+    <string name="hoofdstuk2_paragraaf1_quote_medewerkerbpz">\"Tijdens het overbrengen werkt het om
+        alvast te vertellen met wie ze te maken krijgen. De term hulpofficier zegt iemand met een LVB
+        vaak niets. Ik zeg altijd dat mijn baas komt controleren of ik mijn werk wel goed heb gedaan.\"
+        Medewerker bpz
+    </string>
+    <string name="hoofdstuk2_paragraaf1_opsommingspunt4">Beschrijf niet alleen de procedures, maar
+        ook de situatie: agenten op het parkeerterrein, hectiek in het cellenblok. Hoe beter iemand
+        met een LVB is voorbereid, hoe gemakkelijker de insluiting zal verlopen.</string>
+    <string name="hoofdstuk2_paragraaf1_opsommingspunt5">Mensen met een LVB hebben moeite met het
+        begrijpen van de cautie. Onderzoek heeft uitgewezen dat zelfs een versimpelde of visueel
+        ondersteunde versie onvoldoende begrepen wordt. Besteed voldoende tijd aan de uitleg van de
+        cautie.</string>
+    <string name="hoofdstuk2_paragraaf1_qoute_rechercheur">\"Collega\'s zagen twee jongeren op straat
+        waar iets mee was, niet iets groots. Ze spraken de jongeren aan, en hebben hen vanwege een
+        grote mond en wegrennen uiteindelijk aangehouden, met verzet. Als ze hadden geweten dat ze
+        een LVB hadden, hadden ze het op een andere manier in kunnen steken, waardoor de jongens
+        misschien minder boos hadden gereageerd\" Rechercheur </string>
+    <string name="h2_p2">2.2 Aankomst, fouilleren en insluiten</string>
+    <string name="h2_p3">2.3 Voorgeleiding"</string>
+    <string name="h2_p4">2.4 Verhoor</string>
+    <string name="h2_p5">2.5 Arrestantenzorg</string>
+    <string name="h2_p6">2.6 In vrijheidstelling</string>
+
+    <!-- Hoofdstuk 3 (pagina1) -->
+    <string name="hoofdstuk3_titel">3. Slachtoffers/getuigen/betrokkenen</string>
+    <string name="hoofdstuk3_paragraaf1_titel">3.1 Inzicht in eigen slachtofferschap en nut politie</string>
+    <string name="hoofdstuk3_paragraaf1_tussenkop1">Het herkennen van slachtofferschap</string>
+    <string name="hoofdstuk3_paragraaf1_tussenkop1_opsommingspunt1"> Slachtoffers met een LVB herkennen
+        zichzelf niet altijd als slachtoffer. Zij moeten soms door anderen uitgelegd krijgen welk
+        gedrag normaal is, bijvoorbeeld bij misbruik en geweld. Soms snappen zij niet precies wat er
+        gebeurd is, bijvoorbeeld bij fraude. Ook hebben zij soms de neiging de schuld bij zichzelf te
+        leggen. Soms leggen ze ook juist de schuld bij een ander in plaats van zichzelf.</string>
+    <string name="hoofdstuk3_paragraaf1_tussenkop1_opsommingspunt2">Slachtofferschap bij mensen met
+        een LVB wordt ook niet altijd gezien door de omgeving. Gedragsveranderingen als gevolg van
+        slachtofferschap worden soms gezien als probleemgedrag. En ook door de omgeving wordt de
+        schuld soms bij het slachtoffer gelegd. </string>
+    <string name="hoofdstuk3_paragraaf1_tussenkop1_opsommingspunt3">Dit vraagt om extra oplettendheid
+        van de agent om verborgen slachtofferschap op te merken. Leg bij voorlichting over geweld en
+        misbruik aan slachtoffers met een LVB steeds goed uit welk gedrag zij van een ander mogen
+        verwachten en wanneer grenzen overschreden worden. Vraag bij fraude en misleiding goed door
+        wat er gebeurd is; kijk wanneer zij dit niet helder kunnen uitleggen of er anderen zijn die
+        dit wel kunnen. </string>
+    <string name="hoofdstuk3_paragraaf1_tussenkop1_quote_advocaat">\"Een meisje met een LVB dat in een
+        instelling woonde stond op een bus te wachten bij de bushalte. Er kwam een man langs die dacht
+        dat ze er wel leuk uit zag; je kon niet echt zien dat ze verstandelijk beperkt was. Hij vroeg
+        of ze een lift wilde. Zij had niet door dat hij bezopen was en hij reed zo de bosjes in en
+        begon haar overal te betasten. Ze riep wel nee maar ook niet heel hard en hij zette haar na
+        afloop gewoon af bij de instelling. Toen ze binnen was en er werd gevraagd hoe haar dag was
+        zei ze alleen \"nou, raar want er zat een man overal aan te prutsen.\" Ze is toen meteen naar
+        de huisarts gebracht en daar is bewijsmateriaal verzameld. Dan heb je haar verklaring, met
+        DNA: dan heb je wel een zaak. Dan moet je als verdachte wel een mooi verhaal hebben&#8230;
+        Maar wat zij dan vertelt, dat is al zo typerend voor iemand met een LVB. Die komt gewoon de
+        instelling binnen gelopen, terwijl een ander compleet in paniek of overstuur is. En ze heeft
+        dus ook niet heel hard \'nee\' geschreeuwd.\" Advocaat</string>
+    <string name="h3_p2">3.2 Het eerste contact</string>
+    <string name="h3_p3">3.3 Aanwezigheid en rol begeleiding</string>
+    <string name="h3_p4">3.4 Haalbaarheid en wenselijkheid van aangifte</string>
+    <string name="h3_p5">3.5 Een goede aangifte&#8230;</string>
+    <string name="h3_p6">3.6 Doorverwijzen</string>
+
+    <!-- Hoofdstuk 4 -->
+    <string name="hoofdstuk4_titel">4. Extra informatie</string>
+    <string name="hoofdstuk4_tussenkop1">Enkele publicaties</string>
+    <string name="hoofdstuk4_tussenkop1_opsommingspunt1">Beer, Y. de (2016). Kompas Licht Verstandelijke
+        Beperking: Definitie, aspecten en ondersteuning. Amsterdam: SWP.</string>
+    <string name="hoofdstuk4_tussenkop1_opsommingspunt2">Kaal, H.L. (2013) Ongewoon moeilijk: Jeugdige
+        delinquenten met een LVB als (voortdurende) bron van zorg. Den Haag: Boom Lemma Uitgevers.
+        (www.hsleiden.nl)</string>
+    <string name="hoofdstuk4_tussenkop1_opsommingspunt3">Kaal, H. &#38; Spaan, N. (2015). Onbeperkt toegang
+        tot recht? Slachtoffers met een licht verstandelijke beperking in de strafrechtsketen.
+        (www.hsleiden.nl)</string>
+    <string name="hoofdstuk4_tussenkop1_opsommingspunt4">Kaal, H.L., Overvest, N. &#38; Boertjes, M.J.
+        (Red.) (2017). Beperkt in de keten. Mensen met een Licht Verstandelijke Beperking in de
+        strafrechtsketen. 2e druk. Amsterdam: Boom Lemma. </string>
+    <string name="hoofdstuk4_tussenkop2">Enkele materialen</string>
+    <string name="hoofdstuk4_tussenkop2_opsommingspunt1">Tieman, L., &#38; Herder, F. (2014). Licht
+        verstandelijk beperkt; Instructieboek tegen woninginbraak, babbeltruc en woningoverval.
+        Utrecht: Centrum voor Criminaliteitspreventie en Veiligheid. (www.politiekeurmerk.nl)</string>
+    <string name="hoofdstuk4_tussenkop2_opsommingspunt2">Expertisecentrum William Schrikker (20??).
+        Toolbox JR. Hulpmiddelen ter ondersteuning van het gesprek van een jeugdreclasseringwerker
+        met een jongere met een LVB. (www.spelpartnershop.nl)</string>
+    <string name="hoofdstuk4_tussenkop3">Instellingen met specifieke kennis van LVB</string>
+    <string name="hoofdstuk4_tussenkop3_opsommingspunt1">Landelijk Kenniscentrum LVB .
+        (www.kenniscentrumlvb.nl), heeft tot doel het ontwikkelen, samenbrengen en delen van kennis
+        over de persoonlijke ontwikkeling,
+        opvoedingssituatie en maatschappelijke participatie van mensen met een LVB.</string>
+    <string name="hoofdstuk4_tussenkop3_opsommingspunt2">MEE (www.mee.nl) is een organisatie die mensen
+        met een verstandelijke beperking ondersteunt.</string>
+    <string name="hoofdstuk4_tussenkop3_opsommingspunt3">LFB (www.lfb.nl) is een belangenvereniging
+        door en voor mensen met een verstandelijke beperking.</string>
+    <string name="hoofdstuk4_tussenkop3_opsommingspunt4">De Borg (www.de-borg.nl) is een
+        samenwerkingsverband tussen vier verschillende instellingen met behandelcentra waar veel
+        expertise is over de behandeling van mensen met een LVB en ernstige gedrags- en/of
+        psychiatrische problemen.</string>
+    <string name="hoofdstuk4_tussenkop3_opsommingspunt5">De William Schrikker Groep
+        (www.williamschrikkergroep.nl) is een organisatie die gespecialiseerde reclasseringszorg
+        biedt aan criminele jongeren met een LVB. Hun Expertisecentrum William Schrikker verzorgt
+        ook trainingen, opleidingen en consultatie.</string>
+    <string name="hoofdstuk4_tussenkop3_opsommingspunt6">Het Lectoraat ‘LVB en Jeugdcriminaliteit’
+        (Hogeschool Leiden/WSG) (www.hsleiden.nl) houdt zich bezig met de verwerving en verspreiding
+        van kennis op het gebied van LVB en de strafrechtsketen.</string>
+
+
+    <!-- About Handreiking -->
+    <string name="about_handreiking">Over Handreiking</string>
+    <string name="gemaakt_door_tekst">Deze handreiking is tot stand gekomen uit een samenwerking
+        tussen het lectoraat Licht Verstandelijke Beperking en Jeugdcriminaliteit van Hogeschool
+        Leiden en de politiedistricten Zeeland en De Baronie.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
+

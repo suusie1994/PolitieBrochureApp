@@ -13,12 +13,12 @@ import nl.hsleiden.politiebrochureapp.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link TestFragment.OnFragmentInteractionListener} interface
+ * {@link ColofonFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link TestFragment#newInstance} factory method to
+ * Use the {@link ColofonFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TestFragment extends Fragment {
+public class ColofonFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +30,7 @@ public class TestFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public TestFragment() {
+    public ColofonFragment() {
         // Required empty public constructor
     }
 
@@ -40,11 +40,11 @@ public class TestFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment TestFragment.
+     * @return A new instance of fragment ColofonFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static TestFragment newInstance(String param1, String param2) {
-        TestFragment fragment = new TestFragment();
+    public static ColofonFragment newInstance(String param1, String param2) {
+        ColofonFragment fragment = new ColofonFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -65,7 +65,7 @@ public class TestFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_test, container, false);
+        return inflater.inflate(R.layout.fragment_colofon, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -78,15 +78,7 @@ public class TestFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        //TODO delete onderstaande
-        /*
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
-        */
+
     }
 
     @Override

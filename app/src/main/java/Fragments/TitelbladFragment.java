@@ -13,12 +13,12 @@ import nl.hsleiden.politiebrochureapp.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Hoofdstuk1Fragment.OnFragmentInteractionListener} interface
+ * {@link TitelbladFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Hoofdstuk1Fragment#newInstance} factory method to
+ * Use the {@link TitelbladFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Hoofdstuk1Fragment extends Fragment {
+public class TitelbladFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +30,7 @@ public class Hoofdstuk1Fragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Hoofdstuk1Fragment() {
+    public TitelbladFragment() {
         // Required empty public constructor
     }
 
@@ -40,11 +40,11 @@ public class Hoofdstuk1Fragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Hoofdstuk1Fragment.
+     * @return A new instance of fragment TitelbladFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static Hoofdstuk1Fragment newInstance(String param1, String param2) {
-        Hoofdstuk1Fragment fragment = new Hoofdstuk1Fragment();
+    public static TitelbladFragment newInstance(String param1, String param2) {
+        TitelbladFragment fragment = new TitelbladFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -65,7 +65,7 @@ public class Hoofdstuk1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_hoofdstuk1, container, false);
+        return inflater.inflate(R.layout.fragment_titelblad, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -78,14 +78,6 @@ public class Hoofdstuk1Fragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        /*
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
-        */
     }
 
     @Override

@@ -10,8 +10,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import Fragments.AboutHandreikingFragment;
+import Fragments.ColofonFragment;
 import Fragments.Hoofdstuk1Fragment;
-import Fragments.TestFragment;
+import Fragments.Hoofdstuk2Fragment;
+import Fragments.Hoofdstuk3Fragment;
+import Fragments.Hoofdstuk4Fragment;
+import Fragments.InhoudsopgaveFragment;
+import Fragments.TitelbladFragment;
+import Fragments.WaaromEenHandreikingFragment;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
@@ -40,14 +47,80 @@ public class MainActivity extends AppCompatActivity {
         Fragment myFragment = null;
         Class fragmentClass;
         switch (menuItem.getItemId()){
-            case R.id.test:
-                fragmentClass = TestFragment.class;
-                break;
             case R.id.hfst1:
                 fragmentClass = Hoofdstuk1Fragment.class;
                 break;
+            case R.id.h1_1:
+                fragmentClass = Hoofdstuk1Fragment.class;
+                break;
+            case R.id.h1_2:
+                fragmentClass = Hoofdstuk1Fragment.class;
+                break;
+            case R.id.h1_3:
+                fragmentClass = Hoofdstuk1Fragment.class;
+                break;
+            case R.id.h1_4:
+                fragmentClass = Hoofdstuk1Fragment.class;
+                break;
+            case R.id.hfst2:
+                fragmentClass = Hoofdstuk2Fragment.class;
+                break;
+            case R.id.h2_1:
+                fragmentClass = Hoofdstuk2Fragment.class;
+                break;
+            case R.id.h2_2:
+                fragmentClass = Hoofdstuk2Fragment.class;
+                break;
+            case R.id.h2_3:
+                fragmentClass = Hoofdstuk2Fragment.class;
+                break;
+            case R.id.h2_4:
+                fragmentClass = Hoofdstuk2Fragment.class;
+                break;
+            case R.id.h2_5:
+                fragmentClass = Hoofdstuk2Fragment.class;
+                break;
+            case R.id.h2_6:
+                fragmentClass = Hoofdstuk2Fragment.class;
+                break;
+            case R.id.hfst3:
+                fragmentClass = Hoofdstuk3Fragment.class;
+                break;
+            case R.id.h3_1:
+                fragmentClass = Hoofdstuk3Fragment.class;
+                break;
+            case R.id.h3_2:
+                fragmentClass = Hoofdstuk3Fragment.class;
+                break;
+            case R.id.h3_3:
+                fragmentClass = Hoofdstuk3Fragment.class;
+                break;
+            case R.id.h3_4:
+                fragmentClass = Hoofdstuk3Fragment.class;
+                break;
+            case R.id.h3_5:
+                fragmentClass = Hoofdstuk3Fragment.class;
+                break;
+            case R.id.h3_6:
+                fragmentClass = Hoofdstuk3Fragment.class;
+                break;
+            case R.id.hfst4:
+                fragmentClass = Hoofdstuk4Fragment.class;
+                break;
+            case R.id.colofon:
+                fragmentClass = ColofonFragment.class;
+                break;
+            case R.id.about_handleiding:
+                fragmentClass = AboutHandreikingFragment.class;
+                break;
+            case R.id.waarom_handreiking:
+                fragmentClass = WaaromEenHandreikingFragment.class;
+                break;
+            case R.id.inhoudsopgave:
+                fragmentClass = InhoudsopgaveFragment.class;
+                break;
             default:
-                fragmentClass = TestFragment.class;
+                fragmentClass = TitelbladFragment.class;
         }
         try {
             myFragment = (Fragment) fragmentClass.newInstance();
