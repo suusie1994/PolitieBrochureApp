@@ -13,7 +13,6 @@
         android:layout_height="match_parent">
     </FrameLayout>
 
-
     <android.support.design.widget.NavigationView
         android:id="@+id/nav"
         app:headerLayout="@layout/menuheader"
@@ -24,6 +23,6 @@
         app:itemIconTint="@color/darkgray"
         app:menu="@menu/drawermenu"
         android:layout_gravity="start">
-
     </android.support.design.widget.NavigationView>
+
 </android.support.v4.widget.DrawerLayout>

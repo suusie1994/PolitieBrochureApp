@@ -8,6 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+
 import nl.hsleiden.politiebrochureapp.R;
 
 /**
@@ -24,6 +27,8 @@ public class TitelbladFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
+    private int titelbladCounter;
+
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -32,6 +37,7 @@ public class TitelbladFragment extends Fragment {
 
     public TitelbladFragment() {
         // Required empty public constructor
+
     }
 
     /**
@@ -65,6 +71,7 @@ public class TitelbladFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment_titelblad, container, false);
     }
 

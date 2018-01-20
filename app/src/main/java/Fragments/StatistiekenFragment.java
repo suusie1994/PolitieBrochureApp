@@ -7,19 +7,25 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
+import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.data.BarData;
+import com.github.mikephil.charting.data.BarDataSet;
+import com.github.mikephil.charting.data.BarEntry;
+
+import java.util.ArrayList;
 
 import nl.hsleiden.politiebrochureapp.R;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Hoofdstuk1Fragment.OnFragmentInteractionListener} interface
+ * {@link StatistiekenFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Hoofdstuk1Fragment#newInstance} factory method to
+ * Use the {@link StatistiekenFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Hoofdstuk1Fragment extends Fragment {
+public class StatistiekenFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,8 +36,10 @@ public class Hoofdstuk1Fragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
-    
-    public Hoofdstuk1Fragment() {
+
+    BarChart barChart;
+
+    public StatistiekenFragment() {
         // Required empty public constructor
     }
 
@@ -41,11 +49,11 @@ public class Hoofdstuk1Fragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Hoofdstuk1Fragment.
+     * @return A new instance of fragment StatistiekenFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static Hoofdstuk1Fragment newInstance(String param1, String param2) {
-        Hoofdstuk1Fragment fragment = new Hoofdstuk1Fragment();
+    public static StatistiekenFragment newInstance(String param1, String param2) {
+        StatistiekenFragment fragment = new StatistiekenFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -56,18 +64,40 @@ public class Hoofdstuk1Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_hoofdstuk1, container, false);
+        View view = inflater.inflate(R.layout.fragment_statistieken, container, false);
+        barChart = view.findViewById(R.id.bar_graph);
+        ArrayList<BarEntry> barEntries = new ArrayList<>();
+        barEntries.add(new BarEntry(44f, 0));
+        barEntries.add(new BarEntry(44f, 1));
+        barEntries.add(new BarEntry(44f, 2));
+        barEntries.add(new BarEntry(44f, 3));
+        barEntries.add(new BarEntry(44f, 4));
+
+        ArrayList<String> theDates = new ArrayList<>();
+        theDates.add("Januari");
+        theDates.add("februari");
+        theDates.add("maart");
+        theDates.add("april");
+        theDates.add("mei");
+
+        BarDataSet barDataSet = new BarDataSet(barEntries, "Dates");
+
+        BarData theData = new BarData(theDates, barDataSet);
+        barChart.setData(theData);
+
+        barChart.setTouchEnabled(true);
+        barChart.setDragEnabled(true);
+        barChart.setScaleEnabled(true);
+
+        return view;
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

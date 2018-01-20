@@ -27,4 +27,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation 'com.android.support:design:26.1.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v2.1.5' //charts
+    compile 'com.google.code.gson:gson:2.8.0'  // zet JSON in goede classes
+    compile 'com.mcxiaoke.volley:library:1.0.19'   // Volley library 4 HTTP req.
 }

@@ -16,6 +16,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 
+import nl.hsleiden.politiebrochureapp.MainActivity;
 import nl.hsleiden.politiebrochureapp.R;
 
 /**
@@ -73,7 +74,7 @@ public class InhoudsopgaveFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_inhoudsopgave, container, false);
-// TODO: R.string.(naam van de string in string.xml....)
+//TODO: R.string.(naam van de string in string.xml....)
         String[] inhoudsopgaveItemsList = {"Titelblad",
                                             "Colofon",
                                             "Inhoudsopgave",
@@ -98,7 +99,8 @@ public class InhoudsopgaveFragment extends Fragment {
                                             "3.5 Een goede aangifte...",
                                             "3.6 Doorverwijze",
                                             "4. Extra informatie",
-                                            "Over de Handreiking"};
+                                            "Over de Handreiking",
+                                            "Beoordeel de app!"};
 
         ListView listView = view.findViewById(R.id.inhoudsopgave_list_view);
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(
@@ -234,6 +236,11 @@ public class InhoudsopgaveFragment extends Fragment {
                         transaction.addToBackStack(null);
                         break;
                     case 24:
+                        fragment = new AboutHandreikingFragment();
+                        transaction.replace(R.id.flcontent,fragment);
+                        transaction.addToBackStack(null);
+                        break;
+                    case 25:
                         fragment = new AboutHandreikingFragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);

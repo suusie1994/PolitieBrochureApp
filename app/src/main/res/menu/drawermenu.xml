@@ -32,5 +32,8 @@
 
     <item android:id="@+id/hfst4" android:title="@string/hoofdstuk4_titel" />
 
-    <item android:id="@+id/about_handleiding" android:title="@string/about_handreiking"/>
+    <item android:id="@+id/about_handleiding" android:title="@string/about_handreiking" />
+    <item android:id="@+id/about_App" android:title="@string/about_app" />
+
+    <item android:id="@+id/statistieken" android:title="@string/statistieken"/>
 </menu>
