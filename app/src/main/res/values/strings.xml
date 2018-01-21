@@ -216,10 +216,12 @@
 
     <!-- About ontwikkelaar -->
     <string name="about_app">Over ontwikkelaar</string>
+    <string name="over_ontwikkelaar">Deze App is ontwikkelt door:</string>
 
     <!-- Rate app -->
     <string name="opslaan">Opslaan</string>
     <string name="statistieken">Statistieken</string>
+    <string name="nav_rate_titel">Beoordeel App</string>
     <string name="rateApp_titel">Wat vind je van deze app?</string>
     <string name="rateAppe_ondertitel">Geef een cijfer tussen de 0 en 5</string>
 </resources>
