@@ -75,8 +75,7 @@ public class InhoudsopgaveFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_inhoudsopgave, container, false);
 //TODO: R.string.(naam van de string in string.xml....)
-        String[] inhoudsopgaveItemsList = {"Titelblad",
-                                            "Colofon",
+        String[] inhoudsopgaveItemsList = {"Colofon",
                                             "Inhoudsopgave",
                                             "Waarom een handreiking?",
                                             "1. Algemeen",
@@ -100,6 +99,7 @@ public class InhoudsopgaveFragment extends Fragment {
                                             "3.6 Doorverwijze",
                                             "4. Extra informatie",
                                             "Over de Handreiking",
+                                            "Over ontwikkelaar",
                                             "Beoordeel de app!"};
 
         ListView listView = view.findViewById(R.id.inhoudsopgave_list_view);
@@ -116,22 +116,22 @@ public class InhoudsopgaveFragment extends Fragment {
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
                 switch (position) {
                     case 0:
-                        fragment = new TitelbladFragment();
-                        transaction.replace(R.id.flcontent,fragment);
-                        transaction.addToBackStack(null);
-                        break;
-                    case 1:
                         fragment = new ColofonFragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
-                    case 2:
+                    case 1:
                         fragment = new InhoudsopgaveFragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
-                    case 3:
+                    case 2:
                         fragment = new WaaromEenHandreikingFragment();
+                        transaction.replace(R.id.flcontent,fragment);
+                        transaction.addToBackStack(null);
+                        break;
+                    case 3:
+                        fragment = new Hoofdstuk1Fragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
@@ -156,7 +156,7 @@ public class InhoudsopgaveFragment extends Fragment {
                         transaction.addToBackStack(null);
                         break;
                     case 8:
-                        fragment = new Hoofdstuk1Fragment();
+                        fragment = new Hoofdstuk2Fragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
@@ -191,7 +191,7 @@ public class InhoudsopgaveFragment extends Fragment {
                         transaction.addToBackStack(null);
                         break;
                     case 15:
-                        fragment = new Hoofdstuk2Fragment();
+                        fragment = new Hoofdstuk3Fragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
@@ -226,12 +226,12 @@ public class InhoudsopgaveFragment extends Fragment {
                         transaction.addToBackStack(null);
                         break;
                     case 22:
-                        fragment = new Hoofdstuk3Fragment();
+                        fragment = new Hoofdstuk4Fragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
                     case 23:
-                        fragment = new Hoofdstuk4Fragment();
+                        fragment = new AboutHandreikingFragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
@@ -241,7 +241,7 @@ public class InhoudsopgaveFragment extends Fragment {
                         transaction.addToBackStack(null);
                         break;
                     case 25:
-                        fragment = new AboutHandreikingFragment();
+                        fragment = new AboutAppFragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;

@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -42,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        TitelbladFragment titelbladFragment = new TitelbladFragment();
+        fragmentTransaction.replace(R.id.flcontent, titelbladFragment).commit();
 
         mDrawerLayout = findViewById(R.id.drawer);
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
@@ -135,12 +140,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.inhoudsopgave:
                 fragmentClass = InhoudsopgaveFragment.class;
-                break;
-            case R.id.statistieken:
-                fragmentClass = StatistiekenFragment.class;
-                break;
-            case R.id.titelblad:
-                fragmentClass = TitelbladFragment.class;
                 break;
             case R.id.about_App:
                 fragmentClass = AboutAppFragment.class;
