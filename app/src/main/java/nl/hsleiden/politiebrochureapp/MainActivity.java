@@ -23,6 +23,7 @@ import org.json.JSONObject;
 
 import Fragments.AboutAppFragment;
 import Fragments.AboutHandreikingFragment;
+import Fragments.BeoordeelFragment;
 import Fragments.ColofonFragment;
 import Fragments.Hoofdstuk1Fragment;
 import Fragments.Hoofdstuk2Fragment;
@@ -36,17 +37,6 @@ import Fragments.WaaromEenHandreikingFragment;
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
-
-    private int titelpaginaCounter = 0;
-    private int colofonCounter = 0;
-    private int waaromHandreikingCounter = 0;
-    private int aboutHnadreikingCounter = 0;
-    private int hoofdstuk1Counter = 0;
-    private int hoofdstuk2Counter = 0;
-    private int hoofdstuk3Counter = 0;
-    private int hoofdstuk4Counter = 0;
-
-    Bundle bundle = new Bundle();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,95 +66,72 @@ public class MainActivity extends AppCompatActivity {
         switch (menuItem.getItemId()) {
             case R.id.hfst1:
                 fragmentClass = Hoofdstuk1Fragment.class;
-                hoofdstuk1Counter++;
                 break;
             case R.id.h1_1:
                 fragmentClass = Hoofdstuk1Fragment.class;
-                hoofdstuk1Counter++;
                 break;
             case R.id.h1_2:
                 fragmentClass = Hoofdstuk1Fragment.class;
-                hoofdstuk1Counter++;
                 break;
             case R.id.h1_3:
                 fragmentClass = Hoofdstuk1Fragment.class;
-                hoofdstuk1Counter++;
                 break;
             case R.id.h1_4:
                 fragmentClass = Hoofdstuk1Fragment.class;
-                hoofdstuk1Counter++;
                 break;
             case R.id.hfst2:
                 fragmentClass = Hoofdstuk2Fragment.class;
-                hoofdstuk2Counter++;
                 break;
             case R.id.h2_1:
                 fragmentClass = Hoofdstuk2Fragment.class;
-                hoofdstuk2Counter++;
                 break;
             case R.id.h2_2:
                 fragmentClass = Hoofdstuk2Fragment.class;
-                hoofdstuk2Counter++;
                 break;
             case R.id.h2_3:
                 fragmentClass = Hoofdstuk2Fragment.class;
-                hoofdstuk2Counter++;
                 break;
             case R.id.h2_4:
                 fragmentClass = Hoofdstuk2Fragment.class;
-                hoofdstuk2Counter++;
                 break;
             case R.id.h2_5:
                 fragmentClass = Hoofdstuk2Fragment.class;
-                hoofdstuk2Counter++;
                 break;
             case R.id.h2_6:
                 fragmentClass = Hoofdstuk2Fragment.class;
-                hoofdstuk2Counter++;
                 break;
             case R.id.hfst3:
                 fragmentClass = Hoofdstuk3Fragment.class;
-                hoofdstuk3Counter++;
                 break;
             case R.id.h3_1:
                 fragmentClass = Hoofdstuk3Fragment.class;
-                hoofdstuk3Counter++;
                 break;
             case R.id.h3_2:
                 fragmentClass = Hoofdstuk3Fragment.class;
-                hoofdstuk3Counter++;
                 break;
             case R.id.h3_3:
                 fragmentClass = Hoofdstuk3Fragment.class;
-                hoofdstuk3Counter++;
                 break;
             case R.id.h3_4:
                 fragmentClass = Hoofdstuk3Fragment.class;
-                hoofdstuk3Counter++;
                 break;
             case R.id.h3_5:
                 fragmentClass = Hoofdstuk3Fragment.class;
-                hoofdstuk3Counter++;
                 break;
             case R.id.h3_6:
                 fragmentClass = Hoofdstuk3Fragment.class;
-                hoofdstuk3Counter++;
                 break;
             case R.id.hfst4:
                 fragmentClass = Hoofdstuk4Fragment.class;
-                hoofdstuk4Counter++;
                 break;
             case R.id.colofon:
                 fragmentClass = ColofonFragment.class;
-                colofonCounter++;
                 break;
             case R.id.about_handleiding:
                 fragmentClass = AboutHandreikingFragment.class;
-                aboutHnadreikingCounter++;
                 break;
             case R.id.waarom_handreiking:
                 fragmentClass = WaaromEenHandreikingFragment.class;
-                waaromHandreikingCounter++;
                 break;
             case R.id.inhoudsopgave:
                 fragmentClass = InhoudsopgaveFragment.class;
@@ -174,10 +141,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.titelblad:
                 fragmentClass = TitelbladFragment.class;
-                titelpaginaCounter++;
                 break;
             case R.id.about_App:
                 fragmentClass = AboutAppFragment.class;
+                break;
+            case R.id.rateApp:
+                fragmentClass = BeoordeelFragment.class;
                 break;
             default:
                 fragmentClass = TitelbladFragment.class;
@@ -198,9 +167,6 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-//                if (item.getItemId() == R.id.statistieken){
-//                    startActivity(new Intent(MainActivity.this, StatistiekenActivity.class));
-//                }
                 selectItemDrawer(item);
                 return true;
             }

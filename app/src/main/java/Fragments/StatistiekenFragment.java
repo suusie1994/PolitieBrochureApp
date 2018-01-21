@@ -1,12 +1,15 @@
 package Fragments;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Switch;
+import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
@@ -37,6 +40,7 @@ public class StatistiekenFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
+    TextView textView;
     BarChart barChart;
 
     public StatistiekenFragment() {
@@ -71,22 +75,31 @@ public class StatistiekenFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_statistieken, container, false);
+
+        Bundle bundle = getArguments();
+        String ingevoerdeTekst = bundle.getString("tekst");
+
+        textView = view.findViewById(R.id.beoordeling);
+        textView.setText("Uw beoordeling was een : " + ingevoerdeTekst);
+
         barChart = view.findViewById(R.id.bar_graph);
         ArrayList<BarEntry> barEntries = new ArrayList<>();
-        barEntries.add(new BarEntry(44f, 0));
-        barEntries.add(new BarEntry(44f, 1));
-        barEntries.add(new BarEntry(44f, 2));
-        barEntries.add(new BarEntry(44f, 3));
-        barEntries.add(new BarEntry(44f, 4));
+        barEntries.add(new BarEntry(3, 0));
+        barEntries.add(new BarEntry(12, 1));
+        barEntries.add(new BarEntry(25, 2));
+        barEntries.add(new BarEntry(25, 3));
+        barEntries.add(new BarEntry(27, 4));
+        barEntries.add(new BarEntry(17, 5));
 
         ArrayList<String> theDates = new ArrayList<>();
-        theDates.add("Januari");
-        theDates.add("februari");
-        theDates.add("maart");
-        theDates.add("april");
-        theDates.add("mei");
+        theDates.add("0");
+        theDates.add("1");
+        theDates.add("2");
+        theDates.add("3");
+        theDates.add("4");
+        theDates.add("5");
 
-        BarDataSet barDataSet = new BarDataSet(barEntries, "Dates");
+        BarDataSet barDataSet = new BarDataSet(barEntries, "Beoordeling");
 
         BarData theData = new BarData(theDates, barDataSet);
         barChart.setData(theData);
@@ -94,6 +107,7 @@ public class StatistiekenFragment extends Fragment {
         barChart.setTouchEnabled(true);
         barChart.setDragEnabled(true);
         barChart.setScaleEnabled(true);
+        barChart.setDescription("");
 
         return view;
     }

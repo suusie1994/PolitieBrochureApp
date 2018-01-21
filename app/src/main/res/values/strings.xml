@@ -214,9 +214,13 @@
         tussen het lectoraat Licht Verstandelijke Beperking en Jeugdcriminaliteit van Hogeschool
         Leiden en de politiedistricten Zeeland en De Baronie.</string>
 
-    <string name="statistieken">Statistieken</string>
-
+    <!-- About ontwikkelaar -->
     <string name="about_app">Over ontwikkelaar</string>
 
+    <!-- Rate app -->
+    <string name="opslaan">Opslaan</string>
+    <string name="statistieken">Statistieken</string>
+    <string name="rateApp_titel">Wat vind je van deze app?</string>
+    <string name="rateAppe_ondertitel">Geef een cijfer tussen de 0 en 5</string>
 </resources>
 

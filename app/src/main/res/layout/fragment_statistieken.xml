@@ -4,8 +4,21 @@
     android:layout_height="match_parent"
     tools:context="Fragments.StatistiekenFragment">
 
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="10dp"
+       android:id="@+id/beoordeling"
+       android:textColor="@color/colorPrimaryDark"
+       android:textSize="16sp"
+       android:text=""
+       android:textStyle="bold"/>
+
    <com.github.mikephil.charting.charts.BarChart
       android:layout_width="match_parent"
+       android:layout_marginTop="40dp"
        android:layout_height="400dp"
        android:id="@+id/bar_graph"/>
 
