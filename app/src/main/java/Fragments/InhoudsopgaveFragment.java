@@ -74,7 +74,6 @@ public class InhoudsopgaveFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_inhoudsopgave, container, false);
-//TODO: R.string.(naam van de string in string.xml....)
         String[] inhoudsopgaveItemsList = {"Colofon",
                                             "Inhoudsopgave",
                                             "Waarom een handreiking?",
