@@ -235,12 +235,12 @@ public class InhoudsopgaveFragment extends Fragment {
                         transaction.addToBackStack(null);
                         break;
                     case 24:
-                        fragment = new AboutHandreikingFragment();
+                        fragment = new AboutAppFragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
                     case 25:
-                        fragment = new AboutAppFragment();
+                        fragment = new BeoordeelFragment();
                         transaction.replace(R.id.flcontent,fragment);
                         transaction.addToBackStack(null);
                         break;
